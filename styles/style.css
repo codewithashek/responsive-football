@@ -133,6 +133,20 @@ color: white;}
        display:block;
        
    }
+
+   .extra2{display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+   }
+
+   .extra2-title{
+       margin: 80px;
+   }
+   .video{
+       margin-right: 80px;
+   }
       
     
 
@@ -198,6 +212,15 @@ color: white;}
                    grid-template-columns: repeat(1,1fr);}
                    #extra-title{
                             padding-left: 15px;}
+               .extra2{
+                grid-template-columns: repeat(1,1fr);}
+                .video{
+                    width: 400px;
+                }
+                .extra2-title{
+                    margin-left: 90px ;
+                }
+
             
 
             header{display: none;}
